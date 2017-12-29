@@ -41,7 +41,7 @@ Model 在 Magento 內可以說是一個 實體<code>Entity</code>，無論是新
          * */
         $employeeEntity = $objectManager-&gt;get('Astralweb\ORM\Model\Employee');
         $employeeEntity-&gt;addData([
-            'name' =&gt; '歐斯瑞',
+            'name' =&gt; '王小明',
             'department' =&gt; '工程部',
             'age' =&gt; '18',
             'gender' =&gt; '男',
@@ -93,7 +93,7 @@ Model 在 Magento 內可以說是一個 實體<code>Entity</code>，無論是新
         $employeeEntity
             -&gt;load(1)
             -&gt;setData([
-                'name' =&gt; '歐斯瑞',
+                'name' =&gt; '王小明',
                 'department' =&gt; '工程部',
             ])-&gt;save();
 </code></pre>
