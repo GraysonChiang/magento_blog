@@ -14,26 +14,28 @@ Magento 是一個包裝非常完整的 Framework ，除了實踐了許多設計�
 
 <ul>
 <li>Ubuntu Linux 16.04 LTS</li>
-<li>PhpStorm 2017.3</li>
+<li>PhpStorm 2017.3
+<br></li>
 </ul>
 
 <h2>什麼是 ORM</h2>
 
 ORM，全名是 Object-Relational Mapping ( 對象關係映射 )，是一種程式設計模式，用於實現物件導向語言裡不同類型系統的資料之間的轉換。它的作用是在關聯資料庫數據庫和實體（ Entity ）之間作一個封裝，這樣，我們在具體的操作 Object 的時候，就不需要再去和複雜的 SQL 語句打交道，只需簡單的操作對象的 Property和 Method。
+<br>
 
 <h2>什麼時候需要使用 ORM</h2>
 
 在開發期間，常常會與資料庫做互動，無論是在 <code>Controller</code>、<code>View</code>、<code>Model</code>裡面，都會有可能使用到資料庫四大功能：新增 ( Insert)、刪除（ Delete ）、查詢（ Select )、修改（ Update ），而透過 ORM 幫我們封裝好的方法，就能夠快速的取得我們想要的資料，或是達到我們想要對資料庫做的操作。
 
-<h2>Magento 內 Model 建立</h2>
+<br>
+
+<h2>建立 Model</h2>
 
 想要使用方便的 ORM 架構，必須先從建立資料表（ Table ）及 Model 開始，建立資料表超過本章的教學範圍，故先從 Model 開始講起。在 Magento 2 架構中，一張資料表原則以對應到一個 Model 為主（當然你想要多個也可以），在建立 Model 的時候，需要產生 三個檔案，以我們的 Model 名稱 Employee 為例，三個 Class 分別如下：
 
-<ol>
-<li><code>Vender\Module\Model\Employee</code></li>
-</ol>
+<h4>Class <code>Vender\Module\Model\Employee</code></h4>
 
-<pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
+<pre class="line-numbers prism-highlight" data-start="1"><code class="language-PHP">&lt;?php
 namespace Astralweb\ORM\Model;
 
 use \Magento\Framework\Model\AbstractModel;
@@ -50,9 +52,7 @@ class Employee extends AbstractModel
 }
 </code></pre>
 
-<ol>
-<li><code>Vender\Module\Model\ResourceModel\Employee</code></li>
-</ol>
+<h4>Class <code>Vender\Module\Model\ResourceModel\Employee</code></h4>
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
 namespace Astralweb\ORM\Model\ResourceModel;
@@ -73,9 +73,7 @@ class Employee extends AbstractDb
 }
 </code></pre>
 
-<ol>
-<li><code>Vender\Module\Model\ResourceModel\Employee</code></li>
-</ol>
+<h4>Class <code>Vender\Module\Model\ResourceModel\Employee</code></h4>
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
 
