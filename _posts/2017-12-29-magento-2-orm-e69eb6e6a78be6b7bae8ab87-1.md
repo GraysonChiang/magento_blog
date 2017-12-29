@@ -95,6 +95,8 @@ class Collection extends AbstractCollection
 }
 </code></pre>
 
+<br>
+
 <h2>取得 ORM Collection：</h2>
 
 Magnento 2 中若要取得 Collection 來操作 ORM 的話，有兩種方式，第一種是先宣告 Model Entity ，由 Entity 中使用 getCollection() 的方法取得，第二種是直接建立一個 Collection Class，我們來看以下兩種在宣告上的差異。
@@ -115,9 +117,8 @@ Magnento 2 中若要取得 Collection 來操作 ORM 的話，有兩種方式，�
         $employeeCollection = $employeeEntity-&gt;getCollection();
 </code></pre>
 
-<ul>
-<li>宣告 Collection 方式</li>
-</ul>
+<br>
+* 宣告 Collection 方式
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
 
@@ -126,4 +127,4 @@ Magnento 2 中若要取得 Collection 來操作 ORM 的話，有兩種方式，�
         $employeeCollection = $objectManager-&gt;get('Astralweb\ORM\Model\ResourceModel\Employee\Collection');
 </code></pre>
 
-在取得 Collection 之後，就可以開始對 ORM 資料表進行操作了，剩下的操作細節，我們留至下一篇會有更詳盡的說明！
+在取得 Collection 之後，就可以開始對 ORM 資料表進行操作了。
