@@ -8,11 +8,11 @@ permalink: 'http://magento.im/2017/12/29/magento-2-orm-%e6%9e%b6%e6%a7%8b%e6%b7%
 published: true
 post_date: 2017-12-29 17:17:41
 ---
-在上一次的文章中，我們介紹了 Collection 中 <code>Select</code> 子句的應用，接下來要介紹的是使用 Model 操作新增（Insert）、修改（Update）及刪除（delete）的方法。
+在上一次的文章中，我們介紹了 Collection 中 <code>Select</code> 子句的應用，接下來要介紹的是使用 Model 操作新增（<code>Insert</code>）、修改（<code>Update</code>）及刪除（<code>delete</code>）的方法。
 
 <h2>什麼是 Model  ：</h2>
 
-Model 在 Magento 內可以說是一個 實體（ Entity ），無論是新增、修改、及刪除的方法，都可以透過 Entity 來操作。
+Model 在 Magento 內可以說是一個 實體<code>Entity</code>，無論是新增、修改、及刪除的方法，都可以透過 <code>Entity</code> 來操作。
 
 <h2>取得 Model 的方式：</h2>
 
