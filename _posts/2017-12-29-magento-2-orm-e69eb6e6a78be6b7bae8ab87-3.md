@@ -8,7 +8,7 @@ permalink: 'http://magento.im/2017/12/29/magento-2-orm-%e6%9e%b6%e6%a7%8b%e6%b7%
 published: true
 post_date: 2017-12-29 17:17:41
 ---
-在上一次的文章中，我們介紹了Collection 中 Select 子句的應用，接下來要介紹的是使用 Model 操作新增（Insert）、修改（Update）及刪除（delete）的方法。
+在上一次的文章中，我們介紹了 Collection 中 <code>Select</code> 子句的應用，接下來要介紹的是使用 Model 操作新增（Insert）、修改（Update）及刪除（delete）的方法。
 
 <h2>什麼是 Model  ：</h2>
 
@@ -16,7 +16,7 @@ Model 在 Magento 內可以說是一個 實體（ Entity ），無論是新增�
 
 <h2>取得 Model 的方式：</h2>
 
-在第一篇的文章裡面，我們有提到兩種方式可以取得 Collection ，一種是宣告 Model，透過 getCollection() 的 Method 來取得，另外一種就是直接宣告 Colleciton 類別。而我們今天要使用的 Model ，就是透過宣告 Model 的方式來取得（疑？很抽象嗎？我們用程式來說明吧！）
+在第一篇的文章裡面，我們有提到兩種方式可以取得 Collection ，一種是宣告 Model，透過 <code>getCollection</code> 的 Method 來取得，另外一種就是直接宣告 Colleciton 類別。而我們今天要使用的 Model ，就是透過宣告 Model 的方式來取得，請看以下的範例
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
         /*
@@ -33,7 +33,7 @@ Model 在 Magento 內可以說是一個 實體（ Entity ），無論是新增�
 
 <h2>使用 Model 新增資料</h2>
 
-需要新增資料，使用addData() 方法即可，最後要記得使用save()方法，這樣才會真正存入資料庫內（切記！）
+需要新增資料，使用 <code>addData()</code> 方法即可，最後要記得使用 <code>save()</code> 方法，這樣才會真正存入資料庫內（切記！）
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?pph
        /*
@@ -54,7 +54,7 @@ Model 在 Magento 內可以說是一個 實體（ Entity ），無論是新增�
 
 <h2>使用 Model 刪除資料</h2>
 
-刪除資料有兩種方式，如果已經知道 刪除資料的 id ，可以直接使用load()方法，帶入 id 的值，接著使用delete() 方法刪除資料
+刪除資料有兩種方式，如果已經知道 刪除資料的 <code>id</code> ，可以直接使用 <code>load()</code> 方法，帶入 <code>id</code> 的值，接著使用 <code>delete()</code> 方法刪除資料
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
        /*
@@ -83,7 +83,7 @@ Model 在 Magento 內可以說是一個 實體（ Entity ），無論是新增�
 
 <h2>使用 Model 更新資料</h2>
 
-下面範例是使用Model 修改 entityId 等於 1  的資料，如果是多筆資料需要更改，也可以使用 Collection 的方法
+下面範例是使用Model 修改 <code>entityId</code> 等於 <code>1</code>  的資料，如果是多筆資料需要更改，也可以使用 Collection 的方法
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
        /*
