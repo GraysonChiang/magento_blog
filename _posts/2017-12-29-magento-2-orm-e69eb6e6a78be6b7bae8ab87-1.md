@@ -15,19 +15,19 @@ Magento 是一個包裝非常完整的 Framework ，除了實踐了許多設計�
 <ul>
 <li>Ubuntu Linux 16.04 LTS</li>
 <li>PhpStorm 2017.3
-<br></li>
+<br><br></li>
 </ul>
 
 <h2>什麼是 ORM</h2>
 
 ORM，全名是 Object-Relational Mapping ( 對象關係映射 )，是一種程式設計模式，用於實現物件導向語言裡不同類型系統的資料之間的轉換。它的作用是在關聯資料庫數據庫和實體（ Entity ）之間作一個封裝，這樣，我們在具體的操作 Object 的時候，就不需要再去和複雜的 SQL 語句打交道，只需簡單的操作對象的 Property和 Method。
-<br>
+<br><br>
 
 <h2>什麼時候需要使用 ORM</h2>
 
 在開發期間，常常會與資料庫做互動，無論是在 <code>Controller</code>、<code>View</code>、<code>Model</code>裡面，都會有可能使用到資料庫四大功能：新增 ( Insert)、刪除（ Delete ）、查詢（ Select )、修改（ Update ），而透過 ORM 幫我們封裝好的方法，就能夠快速的取得我們想要的資料，或是達到我們想要對資料庫做的操作。
 
-<br>
+<br><br>
 
 <h2>建立 Model</h2>
 
