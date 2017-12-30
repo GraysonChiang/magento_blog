@@ -24,7 +24,7 @@ Collection 是 Magento 內的操作資料庫的一種類別，裡面實作了許
 <h2>Collection 方法介紹：</h2>
 
 <ul>
-<li><code>addFieldToSelect</code> 方法
+<li><code>addFieldToSelect()</code> 方法
 這是最常用的方法沒有之一，在每個查詢語句的一開始，都會接這個方法來使用，說明在 select 語句中要選擇什麼欄位，或是設定 Alias 都可以在這個方法中操作：</li>
 </ul>
 
@@ -39,8 +39,10 @@ Collection 是 Magento 內的操作資料庫的一種類別，裡面實作了許
         $employeeCollection-&gt;addFieldToSelect('entity_id as id');
 </code></pre>
 
+<br>
+
 <ul>
-<li><code>addFieldToFilter</code> 方法
+<li><code>addFieldToFilter()</code> 方法
 這是在開發中第二常用到的查詢語句，相當於 SQL 的 <code>where</code> 子句，接下來介紹幾種操作的方式，基本上這些方法可以 Cover 掉決大部分的查詢，如果不夠使用，你想要知道更多，可以參考<a href="http://www.tutorialmines.net/addattributetofilter-conditions-in-magento/" title="此篇">此篇</a></li>
 </ul>
 
@@ -126,7 +128,7 @@ Collection 是 Magento 內的操作資料庫的一種類別，裡面實作了許
 
 <h2>Collection 串接方法：</h2>
 
-在看完上述幾種查詢語句之後，是不是覺得在查詢上變的非常方便呢？我們來看看如果多個條件語句組合再一起的時候的實作方式吧！另外在實作的時候，因為 <code>Collecion</code> 大部分的 Method 都是回傳 自己本身 <code>$this</code>  ，所以可以用串接的方式取得資料，這不僅程式看起來非常美觀，而且也大幅增加了閱讀性與可靠性。對於程式的後續維護有很大的幫助。
+在看完上述幾種查詢語句之後，我們來看看如果多個條件語句組合再一起的時候的實作方式。在實作的時候，因為 <code>Collecion</code> 大部分的 Method 都是回傳 自己本身 <code>$this</code>  ，所以可以用串接的方式取得資料，這不僅程式看起來非常美觀，而且也大幅增加了閱讀性與可維護性。對於程式的後續維護有很大的幫助。
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
        /*
@@ -149,9 +151,11 @@ Collection 是 Magento 內的操作資料庫的一種類別，裡面實作了許
             -&gt;getItems();
 </code></pre>
 
+<br>
+
 <h2>Collection 取得資料：</h2>
 
-一般我們大部分會使用 <code>getItem</code> 的方法取得資料，但是 他回傳的是 <code>Collecion</code> ，要怎麼樣法資料取出來？
+一般我們大部分會使用 <code>getItem()</code> 的方法取得資料，但是 他回傳的是 <code>Collecion</code> ，要怎麼樣法資料取出來？
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
        /* 取得資料*/
@@ -170,7 +174,7 @@ Collection 是 Magento 內的操作資料庫的一種類別，裡面實作了許
 </code></pre>
 
 <br>
-<code>getData</code> 的方法是將取得的資料轉換成 <code>Array</code> 後丟出來，有時候較難處理。另外也可以把 <code>$employee</code>  當作物件來操作，取資料的方法就會變成：
+而如果使用 <code>getData()</code> 的方法的話，丟出來的資料會是 <code>Array</code> 的型態，有時候若沒有使用 <code>isset()</code> 這類的函數來檢查的時候，比較容易報錯。若使用<code>getItems()</code>、<code>getFirstItem()</code>的方法，則回傳的是物件<code>object</code> ，所以可以用物件的方式來操作 <code>$employee</code>，取資料的方法就會變成：
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">&lt;?php
       /* 取得資料*/
