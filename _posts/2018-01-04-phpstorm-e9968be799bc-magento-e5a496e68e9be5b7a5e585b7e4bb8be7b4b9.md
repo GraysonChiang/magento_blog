@@ -11,6 +11,7 @@ published: true
 post_date: 2018-01-04 12:25:43
 ---
 說到地表最強的 PHP 開發 IDE ，絕對是屬於 Jetbrains 公司所開發的 PhpStorm ，並且其支援大量的外掛套件提供給我們使用，而我們今天分享的是 PhpStorm 上兩個好用的外掛小工具，可以大幅度提升 Magento 的開發效率唷
+<br>
 
 <h2>Magento 2  工具</h2>
 
