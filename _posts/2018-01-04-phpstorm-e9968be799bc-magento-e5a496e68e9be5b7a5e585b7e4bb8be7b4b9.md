@@ -36,18 +36,14 @@ Magento 是一個大量模組化的購物平台，所有的功能都可以做到
 <h2>安裝步驟</h2>
 
 <ol>
-<li>載入 Magento 2 專案資料夾，開啟專案後畫面如下圖
+<li><p>載入 Magento 2 專案資料夾，開啟專案後畫面如下圖
 <img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.22.01.png" alt="" /></p></li>
 <li><p>開啟偏好設定選項 PhpStorm -> Preferences -> Plugins，或是 MacOS 可以按下快速鍵 Command + ， 進入設定畫面。
 <img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.41.png" alt="" /></p></li>
 <li><p>搜尋套件 ‘Magento2’ 、 ‘Maginto’  並將兩個套件安裝完後 PhpStorm 會要求你重新啟動，就請依照指示重新啟動。
 <img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.41.png" alt="" /></p></li>
 <li><p>安裝完套件後，記得回到  PhpStorm -> Preferences -> Other Settings ，我們會看到多出兩個選項，就是我們剛剛所安裝的外掛，請依照下圖初始化外掛套件。
-<img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.24.02.png" alt="" /></p></li>
-</ol>
-
-<p><img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.57.png" alt="" />
-
-<ol>
-<li>安裝完套件之後，我們就可以開始體驗這個快速開發模組的外掛了</li>
+<img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.24.02.png" alt="" />
+<img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.57.png" alt="" /></p></li>
+<li><p>安裝完套件之後，我們就可以開始體驗這個快速開發模組的外掛了</p></li>
 </ol>
