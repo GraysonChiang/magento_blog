@@ -6,7 +6,7 @@ post_title: >
 author: Grayson
 post_excerpt: ""
 layout: post
-permalink: 'http://magento.im/2018/01/04/phpstorm-%e9%96%8b%e7%99%bc-magento-%e5%a4%96%e6%8e%9b%e5%b7%a5%e5%85%b7%e4%bb%8b%e7%b4%b9/'
+permalink: 'http://blog.magento.im/2018/01/04/phpstorm-%e9%96%8b%e7%99%bc-magento-%e5%a4%96%e6%8e%9b%e5%b7%a5%e5%85%b7%e4%bb%8b%e7%b4%b9/'
 published: true
 post_date: 2018-01-04 12:25:43
 ---
@@ -42,17 +42,17 @@ post_date: 2018-01-04 12:25:43
 
 <ol>
 <li><p>載入 Magento 2 專案資料夾，開啟專案後畫面如下圖
-<img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.22.01.png" alt="" />
+<img src="http://blog.magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.22.01.png" alt="" />
 <br></p></li>
 <li><p>開啟偏好設定選項 <code>PhpStorm</code> -> <code>Preferences</code> -> <code>Plugins</code>，或是 MacOS 可以按下快速鍵 <code>Command</code> + <code>，</code> 進入設定畫面。
-<img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.41.png" alt="" />
+<img src="http://blog.magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.41.png" alt="" />
 <br></p></li>
 <li><p>搜尋套件 <code>Magento2</code> 、 <code>Maginto</code> 並將兩個套件安裝完後 <code>PhpStorm</code> 會要求你重新啟動，就請依照指示重新啟動。
-<img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.50.png" alt="" />
+<img src="http://blog.magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.50.png" alt="" />
 <br></p></li>
 <li><p>安裝完套件後，記得回到  <code>PhpStorm</code> -> <code>Preferences</code> -> <code>Other Settings</code> ，我們會看到多出兩個選項，就是我們剛剛所安裝的外掛，請依照下圖初始化外掛套件。
-<img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.24.02.png" alt="" />
-<img src="http://magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.57.png" alt="" />
+<img src="http://blog.magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.24.02.png" alt="" />
+<img src="http://blog.magento.im/wp-content/uploads/2018/01/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-01-04-20.23.57.png" alt="" />
 <br></p></li>
 <li><p>安裝完套件之後，我們就可以開始體驗這個快速開發模組的外掛了</p></li>
 </ol>
