@@ -10,7 +10,8 @@ permalink: 'http://blog.magento.im/2018/01/04/phpstorm-%e9%96%8b%e7%99%bc-magent
 published: true
 post_date: 2018-01-04 12:25:43
 ---
-說到地表最強的 PHP 開發 IDE ，絕對是屬於 Jetbrains 公司所開發的 PhpStorm ，並且其支援大量的外掛套件提供給我們使用，而我們今天分享的是 PhpStorm 上兩個好用的外掛小工具，可以大幅度提升 Magento 的開發效率唷
+說到地表最強的 PHP 開發 IDE ，絕對是屬於 Jetbrains 公司所開發的 PhpStorm ，並且其支援大量的外掛套件提供給我們使用，而我們今天分享的是 PhpStorm 上兩個好用的外掛小工具，可以大幅度提升 Magento 的開發效率
+
 <br>
 
 <h2>Magento 2  工具</h2>
@@ -24,9 +25,10 @@ post_date: 2018-01-04 12:25:43
 <h2>Maginto  工具</h2>
 
 <ul>
-<li>Magento 是一個大量模組化的購物平台，所有的功能都可以做到模組化，而人工建立模組的步驟實在是非常繁雜，常常大小寫拼錯、檔案位置放錯，皆會在模組建立時產生錯誤訊息，而這個外掛可以幫我們在 30 秒內快速建立模組，還可以建立<code>Controller</code> 、 <code>Model</code> 、<code>Theme</code>，是不是非常的強大，就讓我們繼續看下去。
-<br></li>
+<li>Magento 是一個大量模組化的購物平台，所有的功能都可以做到模組化，而人工建立模組的步驟實在是非常繁雜，常常大小寫拼錯、檔案位置放錯，皆會在模組建立時產生錯誤訊息，而這個外掛可以幫我們在 30 秒內快速建立模組，還可以建立<code>Controller</code> 、 <code>Model</code> 、<code>Theme</code>，是不是非常的強大，就讓我們繼續看下去。</li>
 </ul>
+
+<br>
 
 <h2>執行環境：</h2>
 
