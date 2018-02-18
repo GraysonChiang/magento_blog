@@ -228,3 +228,5 @@ Magento 內部有一張資料表是用來儲存系統參數，但常常不知道
 <br>
 
 <h2>參考範例：</h2>
+
+<a href="https://github.com/GraysonChiang/SysConfigExample" title="Github">Github</a>
