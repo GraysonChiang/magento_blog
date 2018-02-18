@@ -8,8 +8,6 @@ permalink: 'http://blog.magento.im/2018/02/18/magento-eav-model-%e4%bb%8b%e7%b4%
 published: true
 post_date: 2018-02-18 19:31:51
 ---
-<h1>Magento EAV Model 介紹 (1)</h1>
-
 在 Magento 的系統裡面，許多東西都是使用 Attribute 所控制，舉凡像是 Catalog Product、Catalog Category 等等，都有 Attribute 可以操作，但是是什麼樣的原因可以達成這樣彈性強大且靈活的設計，它依靠的是背後的 EAV  ( Entity Attribute Value ) 的系統。今天，我們就來了解一下這強大的系統吧！
 
 <h2>什麼是 EAV</h2>
