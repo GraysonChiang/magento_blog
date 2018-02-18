@@ -15,14 +15,7 @@ post_date: 2018-02-18 19:31:51
 在維基百科的定義：
 
 <blockquote>
-  Entity-Attribute-Value model (EAV), also known as
-  object-attribute-value model and open schema is a data model
-  that is used in circumstances where the number of attributes
-  (properties, parameters) that can be used to describe a
-  thing (an “entity” or “object”) is potentially very vast,
-  but the number that will actually apply to a given entity is
-  relatively modest. In mathematics, this model is known as a
-  sparse matrix.
+  Entity-Attribute-Value model (EAV), also known as object-attribute-value model and open schema is a data model that is used in circumstances where the number of attributes (properties, parameters) that can be used to describe a thing (an “entity” or “object”) is potentially very vast, but the number that will actually apply to a given entity is relatively modest. In mathematics, this model is known as a sparse matrix.
 </blockquote>
 
 Alan Storm 的解釋為：
