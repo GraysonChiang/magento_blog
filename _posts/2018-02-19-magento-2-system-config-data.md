@@ -69,6 +69,10 @@ Magento 內部有一張資料表是用來儲存系統參數，但常常不知道
 裡面所有的 config Data 都是透過 <code>section</code>、<code>group</code>、<code>field</code> 這三個值來定義資料，那這三個又是什麼呢？
 我們參考下圖：
 
+<img src="http://blog.magento.im/wp-content/uploads/2018/02/core_config_data-1024x574.png" alt="" />
+
+<br>
+
 <h2>資料處理 Data Process</h2>
 
 <h3>讀取 Read</h3>
