@@ -118,8 +118,16 @@ Magento 是使用 <code>PHP</code> 所開發而成，而現代化的 <code>PHP</
 * 第 10 行： <code>if</code> 內程式碼，中間不得空行
 * 第 19 行： 結束符號 <code>}</code> 後面允許 <code>1</code> 行空行，且距離最後一個 <code>functino</code> 結束 <code>}</code> 後，不得有空行
 
-當然其他還有很多細部的規則，在 <code>PHPStorm</code> 裡面都會出現相對應的提示，所以不用怕會出錯。
+當然其他還有很多細部的規則，但是在 <code>PHPStorm</code> 裡面都會出現相對應的提示，所以不用怕會出錯
 
 <h4>修改後程式碼：</h4>
 
 <img src="http://blog.magento.im/wp-content/uploads/2018/03/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-03-01-%E4%B8%8B%E5%8D%888.53.45-1024x798.png" alt="" />
+
+<br>
+
+<h2>結語</h2>
+
+<ul>
+<li><code>PSR</code> 是一種標準，並非強制性需要遵循， 但是好的程式碼風格不僅能讓自己看起來舒服，並在大家共同開發的時候遵循，讓程式碼看起來更具一致性，也會有較高的維護性。</li>
+</ul>
