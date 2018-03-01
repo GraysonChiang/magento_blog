@@ -93,7 +93,7 @@ Magento 是使用 <code>PHP</code> 所開發而成，而現代化的 <code>PHP</
 <blockquote>
   Editor / Inspections / PHP / PHP Code Sniffer validation
 </blockquote></li>
-<li>勾選後，指定 <code>coding standard</code> 為 <code>custom</code>，並且定義路徑，
+<li>勾選後，指定 <code>coding standard</code> 為 <code>custom</code>，並且點擊右邊的 <code>...</code> 自定義路徑
 
 <blockquote>
   dev/tests/static/framework/Magento/ruleset.xml
