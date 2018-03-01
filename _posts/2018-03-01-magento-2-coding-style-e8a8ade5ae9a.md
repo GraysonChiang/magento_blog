@@ -66,7 +66,7 @@ Magento 是使用 <code>PHP</code> 所開發而成，而現代化的 <code>PHP</
 
 <code>PHP</code> 有好用的工具可以來隨時監看 <code>Code Style</code> 是否完整，這套工具可以幫我們做到，要在 <code>PHPStorm</code> 裡面設定 <code>Code Sniffer</code>，必須要做以下兩件事情：
 
-<h3>設定 code sniffer 執行檔</h3>
+<h3>設定 <code>Code Sniffer</code> 執行檔</h3>
 
 <ul>
 <li>打開設定路徑：
@@ -85,7 +85,7 @@ Magento 是使用 <code>PHP</code> 所開發而成，而現代化的 <code>PHP</
 <img src="http://blog.magento.im/wp-content/uploads/2018/03/code-sniffer-install-path-1024x242.png" alt="" /></p></li>
 </ul>
 
-<h3>指定 coding style</h3>
+<h3>指定 Coding Style</h3>
 
 <ul>
 <li><p>打開設定路徑：
@@ -112,7 +112,7 @@ Magento 是使用 <code>PHP</code> 所開發而成，而現代化的 <code>PHP</
 
 <img src="http://blog.magento.im/wp-content/uploads/2018/03/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7-2018-03-01-%E4%B8%8B%E5%8D%888.33.59.png" alt="" />
 
-我們可以看到會有黃色的底線出現，代表 Code Sniffer 有正常運作，並且幫我們把錯誤的格式標示出來，依照上圖，我們可以修改的部分為
+我們可以看到會有黃色的底線出現，代表 Code Sniffer 有正常運作，並且幫我們把錯誤的格式標示出來，依照上圖，我們可以修改的部分為：
 * 第 <code>3</code> 行：<code>namespace</code> 與後面的 <code>class</code> 中間要空一行
 * 第 <code>4</code> 行： Class Name 後面多一格空格
 * 第 <code>10</code> 行： <code>if</code> 內程式碼，中間不得空行
