@@ -4,7 +4,7 @@ post_title: Magento 2 使用 Model 建立資料表
 author: Grayson
 post_excerpt: ""
 layout: post
-permalink: 'http://magento.im/2017/12/29/magento-2-%e4%bd%bf%e7%94%a8-model-%e5%bb%ba%e7%ab%8b%e8%b3%87%e6%96%99%e8%a1%a8/'
+permalink: 'http://blog.magento.im/2017/12/29/magento-2-%e4%bd%bf%e7%94%a8-model-%e5%bb%ba%e7%ab%8b%e8%b3%87%e6%96%99%e8%a1%a8/'
 published: true
 post_date: 2017-12-29 15:05:19
 ---

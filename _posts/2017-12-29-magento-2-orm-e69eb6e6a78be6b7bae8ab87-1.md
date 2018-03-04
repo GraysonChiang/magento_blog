@@ -4,7 +4,7 @@ post_title: Magento 2 ORM 架構淺談 (1)
 author: Grayson
 post_excerpt: ""
 layout: post
-permalink: 'http://magento.im/2017/12/29/magento-2-orm-%e6%9e%b6%e6%a7%8b%e6%b7%ba%e8%ab%87-1/'
+permalink: 'http://blog.magento.im/2017/12/29/magento-2-orm-%e6%9e%b6%e6%a7%8b%e6%b7%ba%e8%ab%87-1/'
 published: true
 post_date: 2017-12-29 16:51:06
 ---

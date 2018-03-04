@@ -4,7 +4,7 @@ post_title: Magento 常用程式碼
 author: Grayson
 post_excerpt: ""
 layout: post
-permalink: 'http://magento.im/2017/12/29/magento-%e5%b8%b8%e7%94%a8%e7%a8%8b%e5%bc%8f%e7%a2%bc/'
+permalink: 'http://blog.magento.im/2017/12/29/magento-%e5%b8%b8%e7%94%a8%e7%a8%8b%e5%bc%8f%e7%a2%bc/'
 published: true
 post_date: 2017-12-29 15:32:13
 ---
