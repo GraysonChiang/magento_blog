@@ -8,8 +8,6 @@ permalink: 'http://blog.magento.im/2019/04/07/magento-xml-scheml-%e8%a8%ad%e5%ae
 published: true
 post_date: 2019-04-07 19:44:06
 ---
-<h1>Magento XML Scheml 設定教學</h1>
-
 <blockquote>
   大家在開發 Magento 的過程中，一定會遇到 Magento 內許多的 XML 檔，但是常常，不知道該如何定義，也不知道還有哪些參數可以使用，有時候一個參數要找半天，真的蠻浪費時間。不過好在 Magento 有工具能夠快速產生這些資料，讓我們能夠輕鬆的對應到 xsd 定義檔，一起來看看怎麼做到的吧！
 </blockquote>
