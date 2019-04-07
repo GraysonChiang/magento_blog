@@ -17,7 +17,7 @@ post_date: 2019-04-07 19:44:06
 <h4>示範環境</h4>
 
 <ul>
-<li>Magento 2.2.3</li>
+<li>Magento 2.3.1</li>
 <li>PhpStorm 2019.1</li>
 </ul>
 
